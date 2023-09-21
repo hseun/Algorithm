@@ -1,10 +1,10 @@
 # [unrated] 홀짝 구분하기 - 181944 
 
-[문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/181944) 
+[문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/181944?language=kotlin) 
 
 ### 성능 요약
 
-메모리: 64.6 MB, 시간: 143.77 ms
+메모리: 44.7 MB, 시간: 108.74 ms
 
 ### 구분
 
