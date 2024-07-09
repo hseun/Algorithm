@@ -1,0 +1,1 @@
+print(sum([int(a) ** 5 for a in list(input())]))
