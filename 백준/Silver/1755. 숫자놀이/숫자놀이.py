@@ -15,7 +15,8 @@ m, n = map(int, input().split())
 nums = sorted([num_to_eng(i) for i in range(m, n + 1)])
 nums = [eng_to_num(e) for e in nums]
 
-for i in range(len(nums)):
-    if i % 10 == 0 and i != 0:
-        print()
-    print(nums[i], end=' ')
+for i in range(0, len(nums), 10):
+    if i + 10 > len(nums):
+        print(*nums[i:])
+    else:
+        print(*nums[i:i + 10])
