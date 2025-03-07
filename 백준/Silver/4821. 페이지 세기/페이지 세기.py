@@ -8,11 +8,11 @@ while True:
     pages = input().split(',')
     for page in pages:
         if '-' not in page:
-            if int(page) <= paper:
-                page_set.add(int(page))
+            p = int(page)
+            if p <= paper:
+                page_set.add(p)
             continue
         low, high = map(int, page.split('-'))
         high = min(high, paper)
-        for i in range(low, high + 1):
-            page_set.add(i)
+        page_set.update(range(low, high + 1))
     print(len(page_set))
